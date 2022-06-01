@@ -2,15 +2,26 @@
 ## Junior Frontend Developer
 - Saint Petersburg
 - +7-904-330-95-71
-- ссылка на линкедин
 - soupjordison@gmail.com
-----
-# I  want to become part of a friendly and professional team in which I could develop my Javascript coding skills to achieve team results. I have a very good soft skills,I am very diligent, and always want to learn something new
+- discord: souplizard
+
+## :nerd_face: I  want to become part of a friendly and professional team in which I could develop my Javascript coding skills to achieve team results. I am new at coding so I want to learn JavaScript and it may help me to find interesting work.
 # Skills and Proficiency:
-- JavaScript
--  HTML/CSS
+-  HTML
 -  Agile, Scrum, Kanban
 -  GitHub
 -  Postman
 -  Jira
-# Примерs кода 
+# Code Example
+`<h1> Hello SoupLizard </h1> `
+# Projects
+https://souplizard.github.io/rsschool-cv/cv
+# Education
+Saint Petersburg College of Information Technologies, 2016
+# Languages
+- English - Upper Intermediate 
+
+![certificate_76](https://user-images.githubusercontent.com/106471732/171507782-85ee4a87-98a9-403d-84a2-63c9acd8ac5b.png)
+
+- Russian - Native
+- German - Beginner
