@@ -1,1 +1,228 @@
- hihihi
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --blue-color: rgb(75, 148, 238);
+    --black-color: black; 
+    --violet-color: rgba(170, 89, 170, 0.133);
+  }
+
+  /*wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+} */
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  color:rgb(2, 2, 2)
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 2px;
+  transition: .3s;
+  text-decoration: none;
+}
+  .left-column {
+      background-color: rgb(255, 255, 255);
+      font-family:'Nuosu SIL', serif;
+      text-align: center;
+      color: rgb(2, 2, 2);
+      width: 45%;
+      float:left;
+      }
+
+  body {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: Nuosu SIL, serif;
+    min-height: 100vh;
+    margin: 0; padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container {
+    margin: 29px auto;
+    width: 1024px;
+    font-family: "Nuosu SIL", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+  }
+  /*.container {
+    font-family: Nuosu SIL, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    max-width: 1440px;
+    margin: 0 auto;
+    } */
+
+  .two-columns {
+    display: flex;
+  }
+  
+  .right-column {
+    width: 60%;
+    padding: 2px;
+    margin: auto;
+  }
+  
+  header {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    font-style: Nuosu SIL, serif;
+  }
+  
+  header img {
+    margin-bottom: 30px;
+    border-radius: 0%;
+  }
+  
+  header h1 {
+    margin-bottom: -25px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  header h2 {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+
+  main h3 {
+    width: 190px;
+    margin: 20px auto 25px;
+    padding: 5px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000000;
+    background-color: var(--blue-color);
+  }
+  
+  main .contacts h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: translate(0, -50%);
+  }
+  
+  main li {
+    margin-bottom: 10px;
+  }
+ 
+
+  .contacts li img {
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  
+  .right-column {
+    float: right;
+  }
+  .right-column .sub-header {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .right-column .summary .sub-header {
+    margin-top: 150px;
+    text-align: center;
+    border-bottom: 1px solid cornflowerblue;
+
+  }
+  .right-column .education .sub-header {
+    margin-top: 150px;
+    text-align: center;
+    border-bottom: 1px solid cornflowerblue;
+  }
+  .right-column .code .sub-header {
+    margin-top: 150px;
+    text-align: center;
+    border-bottom: 1px solid cornflowerblue;
+  }
+  .summary p {
+    margin-bottom: 10px;
+    margin-left: 45px;
+  }
+  
+  .summary p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .right-column h3 {
+    flex: 1;
+    vertical-align: middle;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--black-color);
+  }
+  
+  .right-column img {
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  
+  
+  .education p {
+    margin-left: 45px;
+  }
+  
+  .education p strong {
+    font-weight: 700;
+  }
+ 
+  
+  .code-example p {
+    margin-left: 45px;
+  }
+  
+  pre {
+    margin-left: -20px;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .footer {
+    clear:both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #000000;
+    background-color: var(--blue-color);
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  footer .github-logo {
+    margin-right: 10px;
+  }
+  
+  .my-github {
+    display: flex;
+    align-items: center;
+  }
+  
